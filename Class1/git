@@ -1,0 +1,32 @@
+SVN vs GIT
+Centralized vs Decentralized
+
+git have branches (with pointers)
+
+git init - create the .git folder
+git log - see all commits
+git add - add file to commit
+git status - see current
+
+touch 1.txt
+git add 1.log
+git commit -m "something important"
+git log
+
+create you own repository:
+
+ git push -u origin master
+ after that you can use git pull
+ git pull
+ git push
+
+ branches:
+ git branch dev
+ git checkout dev
+ vi 1.txt
+ git status - now file 1.txt is modified
+ git add/restore
+ git commit
+ git log (see all commits including master and dev)
+ git checkout master
+ git status (only master
